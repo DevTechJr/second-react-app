@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import SampleCompo from "./SampleComponent/SampleCompo";
+import List from "./ListFolder/List";
 
 ReactDOM.render(
   <React.StrictMode>
-    <SampleCompo />
-    <App />
+    {/* <SampleCompo />
+    <App /> */}
+    <List />
   </React.StrictMode>,
   document.getElementById("root")
 );

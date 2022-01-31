@@ -7,11 +7,11 @@ const SampleCompo = () => {
   const [age, setAge] = useState(14);
   const changeAge = () => {
     setAge(age + 1);
-    console.log(age);
+    console.log(`(Increase)Age : ${age}`);
   };
   const downAge = () => {
     setAge(age - 1);
-    console.log(`Age Changed => ${age}`);
+    console.log(`(Decrease)Age : ${age}`);
   };
   return (
     <div className="sample-compo">
