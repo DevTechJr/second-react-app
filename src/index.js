@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <SampleCompo />
     <App /> */}
-    <List />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
